@@ -17,7 +17,10 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "assets": [],
-            "styles": ["src/global_styles.css"],
+            "styles": [
+              "src/global_styles.css",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
             "scripts": []
           },
           "configurations": {
