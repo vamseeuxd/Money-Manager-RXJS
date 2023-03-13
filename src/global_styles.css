@@ -1,4 +1,16 @@
 /* Add application styles & imports to this file! */
-.main.list-group {
-  max-height: calc(100vh - 100px);
+.main-list-group {
+  min-height: calc(100vh - 70px);
+  max-height: calc(100vh - 70px);
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  margin: 0;
+  padding: 8px 8px !important;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
